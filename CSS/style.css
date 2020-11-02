@@ -76,16 +76,7 @@ a{
   background-position: left;
   animation: bg-animation 60s infinite;
 }
-.benik{
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  font-size: 120px;
-  top:  35%;
-  text-transform: lowercase;
-  color: white;
-  text-shadow: 0.5px 0.5px black;
-  font-family: 'BebasNeueRegular';
+
 
 }
 .top{
@@ -145,4 +136,28 @@ a{
 
 .twitch:hover .pog{
   visibility: visible;
+}
+
+.mangaC{
+  position: absolute;
+  left: 0.0%;
+  top: 15%;
+  height: 500px;
+  width: 350px;
+  transition: 0.2s;
+  z-index: 100;
+
+}
+.mangaI{
+  position: absolute;
+  left: 0.0%;
+  top: 15%;
+  height: 500px;
+  width: 350px;
+  add z-index: 20;
+
+}
+
+.mangaC:hover{
+  opacity: 0;
 }
