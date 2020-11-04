@@ -179,6 +179,7 @@ a{
   background-color: rgba(0, 0, 255, 0.1);
   border-radius: 0px 10px 10px 0px;
   margin-bottom: 120px;
+  display: inline-block;
 }
 
 .textbox{
@@ -199,13 +200,15 @@ a{
 }
 
 .holder2{
-  position: absolute;
+  position: relative;
+  float: right;
   width: 750px;
   height: 500px;
-  top: 197px;
-  right: 15px;
+  top: 99px;
+  right: 30px;
   border-radius: 0px 0px 10px 10px;
   background-color: rgba(0, 0, 255, 0.1);
+  display: inline-block;
 }
 .dragonB{
   width: 100%;
@@ -217,5 +220,9 @@ a{
   color: white;
   width: 90%;
   padding: 3%;
+
+}
+.pos2{
+  top: 30%;
 
 }
